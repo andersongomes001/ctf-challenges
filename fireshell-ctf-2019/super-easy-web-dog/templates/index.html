@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Give a name to this beautiful dog</title>
+</head>
+<style>
+    body {
+        text-align: center;
+    }
+
+    img {
+        height: 50%;
+    }
+    strong {
+        color: #999;
+        font-size: 0.8em;
+    }
+</style>
+<body>
+    <h1>Do you like dogs? So give a beautiful name for this one!</h1>
+    <div><img src="/static/dog.jpg"/></div>
+    <strong>this is your face after trying this question for 5 straight hours...</strong>
+    <h2>{{ $.Name }}</h2>
+    <form action="." method="POST">
+        <input type="text" name="name" value="{{ $.Input }}" />
+        <input type="submit" name="Give the name!" />
+    </form>
+</body>
+</html>
