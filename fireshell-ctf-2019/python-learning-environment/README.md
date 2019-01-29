@@ -1,16 +1,12 @@
-# Nome
+# Name
 
 Python Learning Environment
-
-# Autor
-
-diofeher
 
 # Solves
 
 50.. something
 
-# Descrição
+# Description
 
 It's good to have a place to practice your python skills online. Can you find the flag in this strange environment?
 
