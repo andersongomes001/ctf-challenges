@@ -20,4 +20,4 @@ Basic PyJail with some WAF. Numbers, [] and specific keywords.
 
 To see the exploit, please see xpl.py
 
-xpl.py could be way easier, but I decided to remove some characters on the blacklist and it was way easier to solve :)
+xpl.py could be way smaller, but I decided to remove some items on the blacklist and it was easier to solve :)
