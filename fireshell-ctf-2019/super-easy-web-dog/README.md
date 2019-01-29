@@ -1,16 +1,12 @@
-# Nome
+# Name
 
 Super-easy web dog
-
-# Autor
-
-diofeher
 
 # Solves
 
 2
 
-# Descrição
+# Description
 
 Who doesn't love cute dogs?
 
