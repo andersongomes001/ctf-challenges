@@ -1,0 +1,11 @@
+version: "2"
+
+services:
+  app:
+    image: golang:1.6.1-alpine
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./super-easy-web-dog:/go/src/go-with-compose
+    working_dir: /go/src/go-with-compose
+    command: go run server.go
